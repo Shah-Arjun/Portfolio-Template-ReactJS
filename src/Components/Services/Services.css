@@ -17,13 +17,13 @@
     font-weight: 600;
    
 }
+
 .services-title img{
     position: absolute;
     z-index: -1;
     bottom: 0;
     right: 0;
 }
-
 
 .services-fromat{
     display: flex;
