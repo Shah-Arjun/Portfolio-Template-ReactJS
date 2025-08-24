@@ -1,0 +1,25 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /*vertical*/
+    justify-content: center;   /*horizontal*/
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.services-title{
+    position: relative;
+}
+
+.services-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+   
+}
+.services-title img{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
