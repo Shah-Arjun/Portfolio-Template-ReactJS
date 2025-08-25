@@ -5,6 +5,7 @@ import Abotu from './Components/About/About'
 import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import MyWork from './Components/MyWork/MyWork'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />              {/*   mounting about section */}
       <Services />              {/*   mounting Services section */}
       <MyWork />              {/*   mounting MyWork section */}
+      <Contact />              {/*   mounting Contact section */}
     </div>
   )
 }
