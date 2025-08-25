@@ -37,3 +37,10 @@
     display: flex;
     margin: auto;
 }
+
+
+/* for anchor-links */
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
