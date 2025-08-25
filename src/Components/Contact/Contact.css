@@ -1,0 +1,25 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /*vertical*/
+    justify-content: center;   /*horizontal*/
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.contact-title{
+    position: relative;
+}
+
+.contact-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600; 
+}
+
+.contact-title img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
