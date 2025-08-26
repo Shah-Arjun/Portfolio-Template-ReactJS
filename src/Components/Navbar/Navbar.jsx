@@ -8,13 +8,13 @@ import menu_close from "../../assets/menu_close.svg"
 
 function Navbar() {
 
-
-  const [menu, setMenu] = useState("home");       {/*to store the state og menu, initially is hone*/}
+// to store the state og menu, initially is hone
+  const [menu, setMenu] = useState("home");       
 
   return (
     <div id="home" className="navbar">
       <img src={logo} alt="logo" />
-      <img src={menu_open} alt="" />  {/* menu icon fro small mobile */}
+      <img src={menu_open} alt="" className="nav-mob-open"/>  {/* menu icon for small mobile */}
       <ul className="nav-menu">
         <img src={menu_close} alt="" className="nav-mob-close"/>    {/* menu close X icon for mobile */}
         <li><AnchorLink className="anchor-link" href="#home"><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{ menu === "home"?<img src={underline} /> : <></> }</li>   {/* menu home ho vane unerline image dekha ntr ntg*/}
