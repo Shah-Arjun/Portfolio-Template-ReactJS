@@ -3,6 +3,8 @@ import "./Navbar.css"; //external css for navbar
 import logo from "../../assets/logo.svg";
 import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import menu_open from "../../assets/menu_open.svg"
+import menu_close from "../../assets/menu_close.svg"
 
 function Navbar() {
 
@@ -12,7 +14,9 @@ function Navbar() {
   return (
     <div id="home" className="navbar">
       <img src={logo} alt="logo" />
+      <img src={menu_open} alt="" />  {/* menu icon fro small mobile */}
       <ul className="nav-menu">
+        <img src={menu_close} alt="" className="nav-mob-close"/>    {/* menu close X icon for mobile */}
         <li><AnchorLink className="anchor-link" href="#home"><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{ menu === "home"?<img src={underline} /> : <></> }</li>   {/* menu home ho vane unerline image dekha ntr ntg*/}
         <li><AnchorLink className="anchor-link" offset={50} href="#about"><p onClick={()=>setMenu("about")}>About</p></AnchorLink>{ menu === "about"?<img src={underline} /> : <></> }</li>
         <li><AnchorLink className="anchor-link" offset={50} href="#services"><p onClick={()=>setMenu("services")}>Services</p></AnchorLink>{ menu === "services"?<img src={underline} /> : <></> }</li>
