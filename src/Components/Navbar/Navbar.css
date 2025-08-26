@@ -45,7 +45,14 @@
     color: white;
 }
 
+
+/* hide close icon in desktop view */
 .nav-mob-close{
+    display: none;
+}
+
+/* hide open icon in desktop view */
+.nav-mob-open{
     display: none;
 }
 
