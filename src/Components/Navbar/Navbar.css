@@ -50,7 +50,7 @@
 }
 
 /* for responsiveness of navbar in mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .navbar{
         margin: 20px 50px;
     }
