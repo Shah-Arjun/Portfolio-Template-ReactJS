@@ -4,6 +4,11 @@
     flex-direction: column;
     gap: 35px;
 }
+.hero p{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .hero img{
     margin-top: 130px;
     width: 250px;
