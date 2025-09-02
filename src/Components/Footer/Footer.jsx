@@ -25,7 +25,7 @@ const Footer = () => {
         <hr />
 
         <div className="footer-bottom">
-            <p className="footer-botton-left">&copy; 2025 Arjun Shah. All rights reserved.</p>
+            <p className="footer-botton-left">&copy; 2025 Arjun.Dev | All rights reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term or Services</p>
                 <p>Privacy Policy</p>
