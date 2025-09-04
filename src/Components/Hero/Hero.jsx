@@ -12,7 +12,7 @@ const Hero = () => {
        {/* left '<' symbol */}
       <span id='left-symbol'> &lt; </span>
 
-      <img src={profile_img1} alt="profile img" className='hero-image' />
+      <img src={profile_img1} alt="arjun's_profile _img" className='hero-image' />
 
       {/* left '<' symbol */}
       <span id='right-symbol'> /&gt; </span>
