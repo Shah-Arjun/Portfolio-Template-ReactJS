@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    position: relative;
 }
 .hero p{
     display: grid;
@@ -15,6 +16,53 @@
     height: 250px;
     border-radius: 50%;
     border: 8px solid rgb(201, 79, 31);
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem; /* mt-10 */
+}
+
+#left-symbol{
+    position: absolute;
+    left: -1-5rem;
+    font-size: 2.25rem;
+    color: #8b5cf6;
+    animation: pulse 2s infinite;
+}
+
+#right-symbol {
+  position: absolute;
+  right: -2rem;
+  font-size: 2.25rem; 
+  color: #ec4899; 
+  animation: pulse 2s infinite;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Hero image styles */
+.hero-image {
+  position: relative;
+  width: 10rem; /* w-40 */
+  height: 10rem; /* h-40 */
+  border-radius: 50%; /* rounded-full */
+  overflow: hidden;
+  border: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #8b5cf6, #ec4899); /* from-purple-500 to-pink-500 */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
 }
 
 .hero h1{             /*for h1 of hero*/
