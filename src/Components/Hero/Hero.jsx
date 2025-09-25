@@ -10,12 +10,12 @@ const Hero = () => {
      
      <div className="hero-inner">
        {/* left '<' symbol */}
-      <span id='left-symbol'> &lt; </span>
+      {/* <span id='left-symbol'> &lt; </span> */}
 
       <img src={profile_img1} alt="arjun's_profile _img" className='hero-image' />
 
-      {/* left '<' symbol */}
-      <span id='right-symbol'> /&gt; </span>
+      {/* left '>' symbol */}
+      {/* <span id='right-symbol'> /&gt; </span> */}
      </div>
 
       <h1><span>I'm Arjun Shah,</span> Fullstack developer based in Nepal.</h1>
